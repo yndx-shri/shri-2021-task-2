@@ -65,7 +65,7 @@ export interface Commit {
     type: 'Commit';
     author: User | UserId;
     message: string;
-    summaries: Summary | SummaryId[];
+    summaries: (Summary | SummaryId)[];
     timestamp: Timestamp;
 }
 
